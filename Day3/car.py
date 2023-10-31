@@ -7,9 +7,9 @@ while user_input != "QUIT":
     
     if user_input == "HELP":
         print("""
-        start - to start the car
-        stop - to stop the car
-        quit - to exit
+start - to start the car
+stop - to stop the car
+quit - to exit
         """)
     
     elif user_input == "START":
@@ -33,6 +33,6 @@ while user_input != "QUIT":
     else:
         print("i don't understand that...")
         
-   
+   #code written by Gabriel Urena
         
         
