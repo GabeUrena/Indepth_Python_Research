@@ -46,3 +46,6 @@ print(numbers)
 clone_numbers = numbers.copy() # copy a list to another list
 print(clone_numbers.append(21))
 print(numbers)
+
+del numbers[4] # delete the element at index 4
+print(numbers)
