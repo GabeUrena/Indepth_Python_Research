@@ -36,7 +36,8 @@ print(patient["birthdate"]) # print the birthdate key
 
 
 print(patient.get("dob")) # dob doesnt exist so return None
-print(patient.get("dob", "September 19 1999")) # dob doesnt exist, create dob and set it to September 19 1999
+print(patient.get("dob", "September 19 1999")) # if dob doesnt exist, create dob and set it to September 19 1999
+# Doing this is like setting the default. Each time a patient doesnt have a birthday the default is september 19 1999
 
 # to add to a dictionary
 patient["name"] = "Alvin Rob" 
