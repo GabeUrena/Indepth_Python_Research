@@ -26,7 +26,11 @@ hello(lname="Smith", fname="John")
     #positional arguement
 hello("John", "Smith")
 
+
+#return
 def square(num):
     return num * num
 
 print(square(10))
+
+#by default all functions return none, that changes depending one what you return
